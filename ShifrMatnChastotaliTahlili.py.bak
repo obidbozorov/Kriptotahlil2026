@@ -1,0 +1,59 @@
+# Bu yerda shifrlangan matnni chastotali tahlil qilish uchun dastur yozilgan. Kriptotahlilda foydalaniladi
+from ChastotaliAnaliz import chastota_tahlil
+from SezarShifrlash import SezarShifrlash
+TajribMatnFaylNomi = "MatnlarDataset.txt"  # Tajriba matn faylining nomi
+try:    
+    with open(TajribMatnFaylNomi, 'r', encoding='utf-8') as fayl:
+        TajribMatn = fayl.read()    
+except FileNotFoundError:
+    print(f"Xatolik: '{TajribMatnFaylNomi}' fayli topilmadi.")
+    TajribMatn = ""  # Fayl topilmasa, bo'sh matn bilan davom etish
+TajribaChastotasi=chastota_tahlil()
+TestOchiqMatnFaylNomi = "TestOchiqMatn.txt"  # Test ochiq matn faylining nomi
+try:
+    with open(TestOchiqMatnFaylNomi, 'r', encoding='utf-8') as fayl:
+        TestOchiqMatn = fayl.read()
+except FileNotFoundError:
+    print(f"Xatolik: '{TestOchiqMatnFaylNomi}' fayli topilmadi.")
+    TestOchiqMatn = ""  # Fayl topilmasa, bo'sh matn bilan davom etish
+TestOchiqMatnShiflranganVarianti=SezarShifrlash(TestOchiqMatn, 7)  # Test ochiq matnni Sezar shifrlash bilan shifrlash
+# SHifrlangan Man .txt fayliga yozish
+try:
+    with open("ShifrlanganMatn.txt", 'w', encoding='utf-8') as fayl:
+        fayl.write(TestOchiqMatnShiflranganVarianti)
+except Exception as e:
+    print(f"Xatolik: Shifrlangan matnni faylga yozishda xatolik yuz berdi: {e}") 
+SHifrlanganMatnFaylNomi = "ShifrlanganMatn.txt"  # Shifrlangan matn faylining nomi
+try:
+    with open(SHifrlanganMatnFaylNomi, 'r', encoding='utf-8') as fayl:
+        ShifrlanganMatn = fayl.read()   
+except FileNotFoundError:
+    print(f"Xatolik: '{SHifrlanganMatnFaylNomi}' fayli topilmadi.")
+    ShifrlanganMatn = ""  # Fayl topilmasa, bo'sh matn bilan davom etish
+# Bu qismda shifrlangan matnni chastotali tahlil qilish va ochiq matnni tiklash jarayoni amalga oshiriladi
+# Amalga oshirish jarayonlar:
+# 1. Tajriba matnni chastotali tahlil qilish
+# 2. Shifrlangan matnni chastotali tahlil qilish
+# 3. Ochiq matnni tiklash jarayoni
+def chastotali_tahlil_va_tiklash(TajribaChastotasi, ShifrlanganMatn):
+    # Tajriba matnni chastotali tahlil qilish
+    TajribaChastotasi = chastota_tahlil(TajribaChastotasi)
+    # Shifrlangan matnni chastotali tahlil qilish
+    ShifrlanganChastotasi = chastota_tahlil(ShifrlanganMatn)
+    # Ochiq matnni tiklash jarayoni
+    OchiqMatnTiklash = ""
+    for harf in ShifrlanganMatn:
+        if harf in ShifrlanganChastotasi:
+            # Har bir shifrlangan harfni tajriba chastotasiga mos keladigan ochiq harfga almashtirish
+            OchiqMatnTiklash += TajribaChastotasi[ShifrlanganChastotasi.index(harf)]
+        else:
+            OchiqMatnTiklash += harf  # Agar harf topilmasa, uni o'zgartirmasdan qoldirish
+    return OchiqMatnTiklash
+# chastotali_tahlil_va_tiklash funksiyasini chaqirish va natijani chiqarish
+Natija = chastotali_tahlil_va_tiklash(TajribaChastotasi, ShifrlanganMatn)
+# Natijani faylga yozish
+try:
+    with open("TiklanganOchiqMatn.txt", 'w', encoding='utf-8') as fayl:
+        fayl.write(Natija)
+except Exception as e:
+    print(f"Xatolik: Tiklangan ochiq matnni faylga yozishda xatolik yuz berdi: {e}")

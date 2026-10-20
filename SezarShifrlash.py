@@ -2,7 +2,7 @@ def SezarShifrlash(Matn, Kalit):
     ShifrlanganMatn = ""
     Matn = Matn.lower()  # Matnni kichik harflarga o'tkazish
     for harf in Matn:
-        if harf.isalpha():
+        if harf in "abcdefghijklmnopqrstuvwxyz":
             if harf.islower():
                 ShifrlanganHarf = chr((ord(harf) - 97 + Kalit) % 26 + 65)
             else:
