@@ -2,7 +2,13 @@
 def chastota_tahlil(matn):
     # Harflar chastotasini hisoblash uchun lug'at yaratish
     chastota = {}
-    ALIFBO = "abcdefghijklmnopqrstuvwxyz"  # Ingliz alifbosi harflari
+    # Yangilangan O'zbek alifbosi harflari
+    ALIFBO = "abdefghijklmnopqrstuvxyzşçöğ"  # Ingliz alifbosi harflari
+    # Juft harflarni yangilangan alifbo bilan almashtirish
+    matn=matn.lower() # Matnni kichik harflarga o'tkazish
+    matn = matn.replace("ch", "ç").replace("sh", "ş").replace("g", "ğ").replace("o'", "ö").replace("o‘", "ö").replace("o’", "ö").replace("o`", "ö").replace("oʻ", "ö").replace("o'", "ö").replace("o`", "ö").replace("o’", "ö").replace("o‘", "ö").replace("o'", "ö")  
+      
+     
     for harf in ALIFBO:
         chastota[harf] = 0  # Har bir harf uchun boshlang'ich chastota 0 ga teng    
         
