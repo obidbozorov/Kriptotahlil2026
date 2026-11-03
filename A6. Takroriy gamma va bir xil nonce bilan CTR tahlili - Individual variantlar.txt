@@ -1,0 +1,51 @@
+6-AMALIY — TALABALARNING INDIVIDUAL O‘QUV SHIFRMATNLARI
+ASCII, 32 bayt; oxiridagi bo‘sh joylar xabar uzunligini tenglashtirish uchun. Quyidagi ma’lum P1 prefiksi haqiqiy (P1,C1) juftligining faqat ko‘rsatilgan baytlari.
+C1,C2 hex ko‘rinishida; maxfiy gamma, K va asl P2 berilmaydi. Qo‘shimcha ma’lumot bo‘lmasa, P2 ning qolgan qismini taxmin bilan "isbotlangan" deb yozmang.
+
+VARIANT A
+P1 ma’lum prefiksi (ASCII): SALOM
+C1 (hex): ed7c85db1cf002ab8958e7b8fac524688e920378eab631ca2602dc14ba0040ab
+C2 (hex): fc688ec11ff01db88c49f1b6fac3307d88fc6173f8ac2eab2a09c714ba0040ab
+
+
+VARIANT B
+P1 ma’lum prefiksi (ASCII): ERTAGA
+C1 (hex): f1eef0e786425cf79727ca6b92303bd7f284dab7fc1ee902e71053c21faf93ac
+C2 (hex): f6e9e3f38f2325f79421cf029f5f2fc5e89ea8bce272ea03fc793fa676af93ac
+
+
+VARIANT C
+P1 ma’lum prefiksi (ASCII): KALIT M
+C1 (hex): 798ea5975f7038f981da568b6fa6cff3b73a166f83b286ef3bd86287703003ee
+C2 (hex): 668ea192421c55f997d54e9e06beaef6ba371964f0ab868331d979e61b3003ee
+
+
+VARIANT D
+P1 ma’lum prefiksi (ASCII): SINOV
+C1 (hex): 1d85e814e807f6cf20f0dfb76ab0bf6002fe8265d2a7c52445373caf4738634f
+C2 (hex): 0383e21ef207fecf25f8c1d606b3b46311f1f67ec5a5cf2d482455c32351634f
+
+
+VARIANT E
+P1 ma’lum prefiksi (ASCII): MA LUM
+C1 (hex): 9e7c780cad7ccbc5f51d57d57a62571c49bfb3b7466c60d2b7c0b6cefb4bf253
+C2 (hex): 87740209b511b3c9e00657bc11725a0c59bfb9a0476301c3b1dcb6cefb4bf253
+
+
+VARIANT F
+P1 ma’lum prefiksi (ASCII): SHIFRMA
+C1 (hex): 29a9ea45b4a34b0c2147d2be28df45f27c81d256d4501c50a5b03721043266d3
+C2 (hex): 31a0ef4ab2ce4509262acfdf31d255ea1df4d84dc9527d46a9ae3a24605b66d3
+
+
+VARIANT G
+P1 ma’lum prefiksi (ASCII): HIMOY
+C1 (hex): 1f19fd341f261b9aeccbd42a3fd6640f7122736fc13275364628a7d6a370ab85
+C2 (hex): 0f11e63d152e6195edcfa63824de160f79537665d92d7c315525a2b2ca70ab85
+
+
+VARIANT H
+P1 ma’lum prefiksi (ASCII): NONCE 
+C1 (hex): d11cfd17f2e0da9995c3b2be624854e44f34323c63573bc86e9984bed5904e9b
+C2 (hex): ce12ea00f6e0db8b8fafa0ab6d5a4ee44e342a3d663e59c56d868cb4bc904e9b
+

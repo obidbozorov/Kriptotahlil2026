@@ -1,0 +1,13 @@
+13-AMALIY | S-blok DDT/LAT: 8 ta individual variant
+Har bir S-blok kirish x=0..F tartibida yozilgan; barchasi 4-bitli bijektiv o‘quv S-bloklar.
+Harflar: a — kirish XOR farqi, b — chiqish XOR farqi; α — kirish niqobi, β — chiqish niqobi.
+Javoblar (DDT/LAT kataklari) kiritilmagan. Koddagi jadval bilan mustaqil hisoblang.
+
+A: S=[7 E 9 4 2 B F 8 C 1 A D 5 6 0 3], a=1, b=9, α=1, β=7
+B: S=[E 8 5 F 1 4 B 2 0 3 C 6 D A 7 9], a=6, b=A, α=4, β=7
+C: S=[1 7 C 9 D 0 A F 4 E B 2 8 3 6 5], a=8, b=5, α=7, β=8
+D: S=[1 F 2 9 A 5 4 3 B C 8 7 6 0 D E], a=C, b=F, α=B, β=2
+E: S=[1 2 4 7 8 5 E 9 6 F B C 3 A D 0], a=F, b=E, α=C, β=B
+F: S=[D 8 7 E 2 4 9 3 1 6 B 5 C F 0 A], a=3, b=F, α=1, β=D
+G: S=[1 C 6 3 D B 0 5 4 F A 9 8 2 7 E], a=5, b=3, α=4, β=7
+H: S=[2 4 9 A F 8 C 3 E 1 0 7 5 B 6 D], a=9, b=A, α=7, β=1

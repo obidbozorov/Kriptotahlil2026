@@ -1,0 +1,28 @@
+8-AMALIY: INDIVIDUAL TEKSHIRUV MATNLARI
+A–H matnlari o‘qitish korpusidan alohida yozilgan; ularni modelni O‘QITISHGA qo‘shmang.
+Har bir matn mustaqil hujjat; bo‘shliqlar bigramma hisobida olib tashlanadi; O‘/G‘ yagona token.
+O‘qituvchi sizga bitta harfni biriktiradi. Model barcha matnlar uchun faqat 8-amaliy_oquv_korpusi.txt faylidan tuziladi.
+
+VARIANT A
+Bugungi mashg‘ulotda talabalar avval masala shartini o‘qiydi, keyin hisoblash rejasini tuzadi. Har bir natija mustaqil tekshiriladi. Yozilgan dastur sodda bo‘lsa ham, uning chegarasi aniq izohlanishi kerak.
+
+VARIANT B
+Kutubxonada yangi darsliklar va o‘quv qo‘llanmalar alohida javonlarga joylashtirildi. Talabalar kerakli kitobni elektron ro‘yxatdan topib, undagi misollarni daftariga yozib oldi. Muhim ma’lumotlar izchil saqlanishi lozim.
+
+VARIANT C
+Laboratoriya rahbari guruhga tajriba natijalarini jadvalga kiritishni tavsiya qildi. Dastlabki taxmin bilan o‘lchangan qiymat orasida farq bo‘lsa, uning sababini aniqlash zarur. Xulosa faqat kuzatilgan dalillarga tayansin.
+
+VARIANT D
+Dars boshlanishidan oldin talabalar kompyuterlarni yoqib, kerakli fayllarni ochdi. O‘qituvchi natijalar bir xil chiqishini emas, har bir hisoblashning asosli bo‘lishini so‘radi. Sinov yakunida barcha izohlar bir hujjatga yozildi.
+
+VARIANT E
+Ma’lumotlarni qayta ishlashda matn belgilari yagona qoida bo‘yicha yozilishi zarur. O‘ va G‘ harflarining turli apostrof bilan ifodalanishi sanashga ta’sir qiladi. Talaba dastlab belgi birligini belgilab, keyin statistik xulosa chiqaradi.
+
+VARIANT F
+Qisqa matnda ayrim harflar tasodifan ko‘p uchrashi mumkin. Katta matnda esa boshqa taqsimot kuzatiladi, ammo korpus mavzusi ham natijaga ta’sir ko‘rsatadi. Shu sababli tajriba sharti va tekshiruv matni alohida qayd etiladi.
+
+VARIANT G
+Shifrlangan xabarni tahlil qilayotgan talaba oldindan tanlangan til modelidan foydalanadi. Yuqori baholangan nomzod tekshiruvdan o‘tkaziladi. Noto‘g‘ri taxmin ham yozib boriladi, chunki u usulning qanday sharoitda adashishini ko‘rsatadi.
+
+VARIANT H
+Bugun fakultetda ilmiy seminar tashkil etildi. Tadqiqotchilar o‘z natijalarini slaydlarda tushuntirib, savollarga javob berdi. Muhokama yakunida keyingi tajribalar rejasi tuzildi va foydalanilgan manbalarni aniq ko‘rsatish kelishildi.

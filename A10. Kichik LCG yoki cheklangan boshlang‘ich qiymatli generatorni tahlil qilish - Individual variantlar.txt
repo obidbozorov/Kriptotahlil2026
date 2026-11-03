@@ -1,0 +1,14 @@
+10-AMALIY: TALABALAR UCHUN INDIVIDUAL VARIANTLAR (SINTETIK)
+LCG-A: m = 257, uchta ketma-ket to'liq chiqish x1,x2,x3; a,c noma'lum.
+LCG-B: m = 256, a = 5, c = 1, seed faqat 0..31; weak_y1 va weak_y2 kuzatilgan.
+Vazifa: (a,c,x4), seed nomzod(lar)i, 128 bitli 0101... balans natijasini toping.
+O'qituvchi javob kalitidagi a,c,seed ma'lumotlarini talabalarga bermang.
+
+Variant A: m=257; x1=29; x2=104; x3=72; weak_y1=21; weak_y2=106
+Variant B: m=257; x1=64; x2=92; x3=232; weak_y1=36; weak_y2=181
+Variant C: m=257; x1=113; x2=63; x3=227; weak_y1=51; weak_y2=0
+Variant D: m=257; x1=202; x2=225; x3=221; weak_y1=66; weak_y2=75
+Variant E: m=257; x1=22; x2=100; x3=86; weak_y1=81; weak_y2=150
+Variant F: m=257; x1=149; x2=46; x3=94; weak_y1=96; weak_y2=225
+Variant G: m=257; x1=1; x2=116; x3=245; weak_y1=111; weak_y2=44
+Variant H: m=257; x1=170; x2=164; x3=26; weak_y1=126; weak_y2=119

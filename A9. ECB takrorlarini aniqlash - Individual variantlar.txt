@@ -1,0 +1,55 @@
+9-AMALIY MASHG‘ULOT — INDIVIDUAL VARIANTLAR
+══════════════════════════════════════════════════════════════
+Barcha qiymatlar sintetik, faqat mahalliy o‘quv laboratoriyasi uchun. 4 baytlik blok — AES emas.
+ECB 12 bayt (3×4), IV va CBC shifrmatni 4 bayt, tag HMAC-SHA256 (32 bayt).
+Asl xabarni o‘qituvchi aytmaydi. Oracleni faqat lab9_local.oracle orqali so‘rang.
+
+Variant A
+ ECB_HEX=570e544c570e544c62195f57
+ IV_HEX=13bd3be8
+ CBC_HEX=b009a759
+ TAG_HEX=f731f737392d883b6f3f51f78a0b02cb7ec65acd116c03823db762cd97c8ba80
+
+Variant B
+ ECB_HEX=dfddc820e9e14b22dfddc820
+ IV_HEX=dec31e12
+ CBC_HEX=1d42a6b9
+ TAG_HEX=8be0236b500b97a0adff9008ea8face32be15a3c8e0d04f5e75b7728bf861172
+
+Variant C
+ ECB_HEX=9a6390a21a6390a79a6390a2
+ IV_HEX=92eca55f
+ CBC_HEX=552d1f64
+ TAG_HEX=b1eae071c2ef4d0cbc42a3cc158954f03e0873b88093d0581fa37cbe4e9d5f4f
+
+Variant D
+ ECB_HEX=f1b60f58f1b60f58f3bf9654
+ IV_HEX=29b2ee31
+ CBC_HEX=ce090662
+ TAG_HEX=1753d6c7b4bb889f6c3ac669fcd1388423c63f16ca815faa577227b72de625de
+
+Variant E
+ ECB_HEX=d2d10ccbd2d10ccb4fd88e4d
+ IV_HEX=981a8763
+ CBC_HEX=b7f11a0e
+ TAG_HEX=acb13f0ba25dfec2563854b765a4bbf3343210455af0e2def514aacbfc2f39be
+
+Variant F
+ ECB_HEX=2fbd417123bf356b2fbd4171
+ IV_HEX=0541789e
+ CBC_HEX=8332646d
+ TAG_HEX=106e2e4ffa95c0a5652d6209500dbd34fe74c9537ef151d0514a3f24d7138864
+
+Variant G
+ ECB_HEX=5f614ed85f614ed8e2604762
+ IV_HEX=342eebc1
+ CBC_HEX=6bac06f4
+ TAG_HEX=9d2a99bf32c42bd4f1d6fce8c2de300ba4d64822b238ff8b84b835a58cc5bb01
+
+Variant H
+ ECB_HEX=74dd4cd979dfcf6274dd4cd9
+ IV_HEX=7469300d
+ CBC_HEX=e36429cc
+ TAG_HEX=f9954fa367ff5f6aff113a9155c1a18233422c7600a63c00cf65bfbd4751f682
+
+VAZIFA: ECBning teng bloklarini toping; IV[-1] o‘zgarishi va 2 ta tasdiqlash so‘rovi orqali oxirgi padding baytini tiklang; asli va o‘zgartirilgan IV bilan authenticated_oracle ni solishtiring.

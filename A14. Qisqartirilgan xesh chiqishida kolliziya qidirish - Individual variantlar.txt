@@ -1,0 +1,15 @@
+14-AMALIY | Qisqartirilgan SHA-256: individual variantlar
+Xabar formati: (prefix + "tajriba={trial}|i={i}").encode("utf-8"); trial=0,1,... .
+Maximal urinish: 100000; birinchi takroriy n-bitli digestda to‘xtang.
+Natijalar oldindan kiritilmagan; har variant uchun 12 ta tajriba o‘tkazing.
+
+A: n=12 bit; prefix='oquv-a-2026|'; tajriba=12 ta
+B: n=16 bit; prefix='oquv-b-2026|'; tajriba=12 ta
+C: n=20 bit; prefix='oquv-c-2026|'; tajriba=12 ta
+D: n=24 bit; prefix='oquv-d-2026|'; tajriba=12 ta
+E: n=12 bit; prefix='oquv-e-2026|'; tajriba=12 ta
+F: n=16 bit; prefix='oquv-f-2026|'; tajriba=12 ta
+G: n=20 bit; prefix='oquv-g-2026|'; tajriba=12 ta
+H: n=24 bit; prefix='oquv-h-2026|'; tajriba=12 ta
+
+Qo‘shimcha nazorat: berilgan TARGET=b"oldindan-belgilangan-xabar" uchun n=12 bitli ikkinchi proobraz qidiring; bu kolliziya tajribasidan alohida.

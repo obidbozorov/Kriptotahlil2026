@@ -1,0 +1,17 @@
+15-AMALIY | Faqat SUN’IY vaqt kuzatuvlari; real qurilmadan o‘lchanmagan.
+CSV ustunlari: variant, ssenariy, guruh (0/1), takror, tartib, vaqt_us.
+Ssenariylar: sizish (kichik vaqt farqi), himoyalangan (farq kiritilmagan), shovqinli (farq + kuchli shovqin), drift (haqiqiy guruh farqi 0, biroq guruhlar ketma-ket o‘lchangan).
+Variant A–H: har birida har bir ssenariy/guruhga 128 tadan kuzatuv berilgan. Talaba bitta variantni tanlaydi.
+SINOV: n=16, 32, 64, 128 bo‘yicha ikkala guruhning dastlabki n ta kuzatuvini alohida tahlil qiling.
+MUHIM: Guruh 0 va 1 real maxfiy kalit bitlari emas, faqat SUN’IY sinf belgilari.
+
+A: individual parametrlar o‘qituvchida; sizga faqat CSVdagi A satrlari kerak.
+B: individual parametrlar o‘qituvchida; sizga faqat CSVdagi B satrlari kerak.
+C: individual parametrlar o‘qituvchida; sizga faqat CSVdagi C satrlari kerak.
+D: individual parametrlar o‘qituvchida; sizga faqat CSVdagi D satrlari kerak.
+E: individual parametrlar o‘qituvchida; sizga faqat CSVdagi E satrlari kerak.
+F: individual parametrlar o‘qituvchida; sizga faqat CSVdagi F satrlari kerak.
+G: individual parametrlar o‘qituvchida; sizga faqat CSVdagi G satrlari kerak.
+H: individual parametrlar o‘qituvchida; sizga faqat CSVdagi H satrlari kerak.
+
+Natijada guruh o‘rtachalari, standart og‘ish, o‘rtacha standart xatosi, Welch t statistikasi, grafik va ehtiyotkor xulosa bo‘lsin.
